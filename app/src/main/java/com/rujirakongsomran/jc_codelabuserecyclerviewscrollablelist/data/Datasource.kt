@@ -3,7 +3,7 @@ package com.rujirakongsomran.jc_codelabuserecyclerviewscrollablelist.data
 import com.rujirakongsomran.jc_codelabuserecyclerviewscrollablelist.R
 import com.rujirakongsomran.jc_codelabuserecyclerviewscrollablelist.model.Affirmation
 
-class DataSource {
+class Datasource {
     fun loadAffirmations(): List<Affirmation> {
         return listOf<Affirmation>(
             Affirmation(R.string.affirmation1),
