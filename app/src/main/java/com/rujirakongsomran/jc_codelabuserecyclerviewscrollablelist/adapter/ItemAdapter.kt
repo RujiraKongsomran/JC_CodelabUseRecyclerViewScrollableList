@@ -20,9 +20,7 @@ class ItemAdapter(
         TODO("Not yet implemented")
     }
 
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
-    }
+    override fun getItemCount() = dataset.size
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         TODO("Not yet implemented")
