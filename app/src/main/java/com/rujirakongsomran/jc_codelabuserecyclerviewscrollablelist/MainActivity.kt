@@ -2,7 +2,6 @@ package com.rujirakongsomran.jc_codelabuserecyclerviewscrollablelist
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.rujirakongsomran.jc_codelabuserecyclerviewscrollablelist.data.Datasource
 import com.rujirakongsomran.jc_codelabuserecyclerviewscrollablelist.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +14,6 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        binding.tvSize.text = Datasource().loadAffirmations().size.toString()
+
     }
 }
