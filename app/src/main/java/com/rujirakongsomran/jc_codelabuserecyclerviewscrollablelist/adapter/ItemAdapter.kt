@@ -26,6 +26,7 @@ class ItemAdapter(
     override fun getItemCount() = dataset.size
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        val item = dataset[position]
+        holder.textview.text = context.resources.getString(item.stringResourceId)
     }
 }
